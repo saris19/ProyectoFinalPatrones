@@ -1,9 +1,9 @@
 package com.example.demo.repository;
 
+
+
+import com.example.demo.entity.Detection;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.example.demo.entity.DetectionEntity;
+public interface DetectionRepository extends JpaRepository<Detection, Long> {}
 
-public interface DetectionRepository extends JpaRepository<DetectionEntity, Long> {
-    
-}
