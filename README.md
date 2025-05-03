@@ -1,4 +1,6 @@
 # ProyectoFinalPatrones
-http://localhost:8080/api/detecciones/bd que hay en bd
-http://localhost:8080/api/detecciones navegador
-http://localhost:8080/api/detecciones/cargar-json cargar datos
+python
+pip install ultralytics
+
+mvn spring-boot:run
+http://localhost:8080/api/detections/analysis/summary ver promedio y maximo visible
