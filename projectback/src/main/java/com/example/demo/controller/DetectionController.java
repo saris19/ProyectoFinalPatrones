@@ -16,7 +16,7 @@ public class DetectionController {
     private final JsonLoader jsonLoader;
     private final DetectionService detectionService;
 
-    @PostMapping("/import")
+    @PostMapping("/import") //manual
     public String importDetections() throws Exception {
         String filePath = "../detections/detections_precision.json";
         jsonLoader.loadJsonAndSaveToDb(filePath);
